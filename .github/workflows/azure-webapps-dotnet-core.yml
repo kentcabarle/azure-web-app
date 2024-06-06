@@ -5,7 +5,7 @@ on: [push]
 env:
   AZURE_WEBAPP_NAME: webapp-sam41395861    # set this to your application's name
   AZURE_WEBAPP_PACKAGE_PATH: '.'      # set this to the path to your web app project, defaults to the repository root
-  NUGET_VERSION: '8.0'           # set this to the dot net version to use
+  NUGET_VERSION: '5.0'           # set this to the dot net version to use
 
 jobs:
   build-and-deploy:
